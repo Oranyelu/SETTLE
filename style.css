@@ -1,17 +1,23 @@
+/* For mobile phones: */
+[class*="nav-bar"] {
+  width: 100%;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
 }
 section {
   background: url(img/Retangle\ 1.png);
-  max-width: 1440px;
+ 
   min-height: 965px;
   color: #ffffff;
   column-gap: 30px;
 }
 
-div {
-  max-width: 1440px;
-}
 
 .nav-bar {
   display: flex;
@@ -90,7 +96,6 @@ table {
 .how-it-works {
   background-image: url(img/Vector\ 5.png);
   color: #ffffff;
-  max-width: 1440px;
 }
 .work {
   display: flex;
@@ -119,7 +124,7 @@ b {
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
-  max-width: 1440px;
+  
 }
 
 .sign-up {
@@ -134,4 +139,71 @@ b {
   padding: 62px;
 
   row-gap: 30px;
+}
+.you-get {
+  display: flex;
+  row-gap: 50px;
+  flex-direction: column;
+  padding: 90px;
+}
+.box-grid {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: #091a2b;
+  color: #ffffff;
+  border-radius: 10px;
+  max-width: 304.97px;
+  max-height: 353.23px;
+  padding: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.testimony{
+  background-color: #091a2b;
+  display: flex;
+  flex-direction: row;
+  min-height: 661px;
+  max-width: 1167px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: #091a2b;
+  width: 275px;
+  height: 369px;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  max-height: 442.79px;
+  column-gap: 233px;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 90px;
+  
+}
+.footer{
+  color: #091a2b;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.soials{
+  display: flex;
+  align-items: flex-end;
+
 }
