@@ -1,6 +1,7 @@
 /* For mobile phones: */
-[class*="nav-bar"] {
+[class*="boby"] {
   width: 100%;
+  overflow-x: scroll;
 }
 
 body {
@@ -10,14 +11,13 @@ body {
   padding: 0px;
   scroll-behavior: smooth;
 }
-section {
+
+.header{
   background: url(img/Retangle\ 1.png);
- 
   min-height: 965px;
   color: #ffffff;
   column-gap: 30px;
 }
-
 
 .nav-bar {
   display: flex;
@@ -90,7 +90,8 @@ table {
   display: flex;
   flex-direction: row;
   align-items: center;
-  column-gap: 150px;
+  column-gap: 500px;
+  padding-top: 100px;
 }
 
 .how-it-works {
@@ -109,13 +110,15 @@ table {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  column-gap: 217px;
+  column-gap: 500px;
   padding-bottom: 100px;
 }
+
 b {
   color: #cdff7a;
   padding: 10px;
 }
+
 .become {
   background-color: #f5ffe5;
   display: flex;
@@ -124,7 +127,6 @@ b {
   flex-direction: column;
   padding-top: 100px;
   padding-bottom: 100px;
-  
 }
 
 .sign-up {
@@ -163,47 +165,45 @@ b {
   align-items: flex-start;
   justify-content: center;
 }
-.testimony{
-  background-color: #091a2b;
+.testimony {
   display: flex;
   flex-direction: row;
   min-height: 661px;
-  max-width: 1167px;
+  padding-left: 170px;
   align-items: center;
   justify-content: center;
   column-gap: 20px;
-  
 }
 .cards {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   color: #091a2b;
-  width: 275px;
-  height: 369px;
+  max-width: 255px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+ padding-bottom: 100px;
   
   
 }
-.foot{
+
+.foot {
   display: flex;
   flex-direction: row;
   max-height: 442.79px;
-  column-gap: 233px;
+  column-gap: 500px;
   align-items: center;
   justify-content: flex-start;
-  padding: 90px;
-  
+  padding: 150px;
 }
-.footer{
+
+.footer {
   color: #091a2b;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.soials{
-  display: flex;
-  align-items: flex-end;
-
 }
