@@ -1,0 +1,21 @@
+body{
+    background-image: url(images/getstarted.png);
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    gap: 170px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: none;
+    color: #ffffff ;
+    border-width: 1px;
+    cursor: pointer;
+    min-height: 40px;
+    min-width: 135px;
+  }

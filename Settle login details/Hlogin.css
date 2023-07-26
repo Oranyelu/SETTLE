@@ -5,10 +5,7 @@
   }
   
   body {
-    background-image: linear-gradient(
-        rgba(10, 10, 20, 0.5),
-        rgba(22, 22, 56, 0.5)
-      ),
+    background-image:
       url(./images/Rectangle\ 1.png);
   }
   
